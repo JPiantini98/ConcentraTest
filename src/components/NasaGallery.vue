@@ -13,11 +13,6 @@
     <div>
       <div v-for="image in tableData" :key="image.id" class="galleryStyle">
 
-        <el-row>
-          <el-col span="6">
-
-          </el-col>
-        </el-row>
         <el-button
           class="buttonFormat"
           type="danger"
